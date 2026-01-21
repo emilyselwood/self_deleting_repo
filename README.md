@@ -19,4 +19,6 @@ There are a lot of ways of running code you probably don't realise you need to t
 
 `build.rs` is evil and can do anything it likes, when cargo builds a project it runs all the code in there with the privs of your shell or editor. It'll cause an error because the code files will vanish under it but the repo will be gone.
 
+## VS code tasks
 
+`.vscode/tasks.json` can define any script it likes to execute when the folder is opened. It'll automatically run `delete_me.sh` in this case.
