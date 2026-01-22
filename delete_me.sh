@@ -1,3 +1,3 @@
 #!/bin/sh
 
-rm -rf *
+rm -rf $(dirname "$0")
